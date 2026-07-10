@@ -1,0 +1,7 @@
+name,quantity,price,batchNumber,expiryDate,lowStockThreshold
+Aspirin 300mg,120,2.10,ASP-2405,2027-05-01,40
+Loratadine 10mg,15,3.40,LOR-2403,2026-10-12,30
+Azithromycin 500mg,60,9.80,AZI-2402,2026-12-20,25
+Diclofenac Gel,5,4.75,DIC-2401,2026-08-05,20
+Insulin Glargine,0,18.50,INS-2404,2026-09-15,10
+Bad Row Missing Qty,,5.00,BAD-0001,2026-09-15,10
