@@ -150,9 +150,17 @@ Run these on Windows (or via CI/Wine) to produce Windows artifacts. On macOS/Lin
 - Windows installers are unsigned; no auto-update channel.
 - No automated test suite (manual verification via the flows above).
 
-## 📸 Screenshots
+## 📸 Demo
 
-_Add screenshots/GIFs here (Dashboard, Inventory + CSV preview, Order detail, Invoice) for the submission._
+**Dashboard → Inventory** (KPI cards, low-stock highlighting, expiry warnings):
+
+![Dashboard and inventory walkthrough](media/medrush-walkthrough.gif)
+
+**Order workflow end-to-end** (open order → Accept → Mark Preparing → Mark Delivered → printable invoice → error state):
+
+![Order lifecycle and invoice](media/medrush-order-flow.gif)
+
+> GIFs recorded against the browser preview (`npm run dev:web`); the packaged Electron build renders identically with the native print dialog and file-picker. A voiced 3–6 min Loom (candidate explaining the code) is still required per the submission rules.
 
 ---
 
